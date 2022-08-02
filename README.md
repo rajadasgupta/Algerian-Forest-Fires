@@ -8,3 +8,5 @@ Steps to be followed:
     conda create -p venv python==3.7 -y 
 3. Activate conda environment (from cmd prompt)
     conda activate venv\
+4. Tested the Exception and loggin code
+5. Added .github\workflow file for CI/CD pipleline
