@@ -12,4 +12,4 @@ Steps to be followed:
 5. Added .github\workflow file for CI/CD pipleline
 6. create the app in Heroku and generate the API key
 7. Add the secrets in GITHUB with the heroku secrets
-8. 
+8. Add the dockerfile before deplying the code in heroku
