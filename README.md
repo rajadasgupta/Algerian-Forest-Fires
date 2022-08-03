@@ -23,4 +23,7 @@ Steps to be followed:
     docker ps (#get the container ID of the running image)
 13. To stop running container
     docker stop <container_ID>    
-14. 
+14. In order to use jupyter notebook within VS code. Install the ipykernel
+    pip install ipykernel
+15. Perform all cleaning, data processing and model buildin in jupyter notebook
+16. Pickle the best model
