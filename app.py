@@ -1,7 +1,7 @@
 from flask import Flask
 import sys
-from forest.logger import logging
-from forest.exception import ForestException
+#from forest.logger import logging
+#from forest.exception import ForestException
 
 app=Flask(__name__)
 
@@ -10,9 +10,9 @@ def home():
     try:
         raise Exception("we are testing custom expection")
     except Exception as e:
-        forest = ForestException(e,sys)
-        logging.info(forest.error_message)    
-        logging.info("We are testing the logging module")
+        forest = Exception(e,sys)
+        #logging.info(forest.error_message)    
+        #logging.info("We are testing the logging module")
     return " Testing exception in Forest project. Added CI/CD pipleine as well"
 
 if __name__=='__main__':
